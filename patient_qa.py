@@ -3,7 +3,7 @@ import openai
 
 # Assuming you've set your API key in your environment variables
 # Otherwise, you can set it here with openai.api_key = 'your_api_key_here'
-openai.api_key = "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"
+openai.api_key = "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"
 
 def get_gpt_response(context, query):
     """Generate a response from GPT-3.5 Turbo given the context and user query, assuming the user is a doctor."""
